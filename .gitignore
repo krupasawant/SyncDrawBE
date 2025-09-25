@@ -1,0 +1,34 @@
+# Node modules
+node_modules/
+
+# Environment variables
+.env
+
+# Logs
+logs
+*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# IDE / editor files
+.vscode/
+.idea/
+*.suo
+*.ntvs*
+*.njsproj
+*.sln
+
+# Build / output directories (if any)
+dist/
+build/
+
+# Optional: temporary files
+tmp/
+temp/
+
+# Clerk SDK files are in node_modules/@clerk - node_modules is ignored above, so no need to ignore separately
